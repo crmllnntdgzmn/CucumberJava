@@ -1,15 +1,10 @@
-How to run the test:
-	1. Right click src/test/java/StepDefinitions/TestRunner.java
-	2. Run as > JUnit Test
-
-How to run the report:
-	1. Double click target/HtmlReports/report.html
-	
 Other Details:
-	1. Feature file - src/test/resources/Features/GridDemo.feature
-	2. Step Definitions - src/test/java/StepDefinitions/GridDemoSteps.java
-	3. Page Objects - src/test/java/PageObjects/GridDemoPage.java
-	4. Chrome Driver - src/test/resources/Drivers/chromedriver.exe
+	1. Feature file - src/main/resources/Features/GridDemo.feature
+	2. Step Definitions - src/main/java/StepDefinitions/GridDemoSteps.java
+	3. Page Objects - src/main/java/PageObjects/GridDemoPage.java
+	4. Chrome Driver - src/main/resources/Drivers/chromedriver.exe
+	5. Html Report - target/HtmlReports/report.html
+	6. Runner - src/main/java/com.qa.main/TestRunner.java
 	
 Libraries used (can be found on the pom.xml file):
 	Dependencies
@@ -18,7 +13,9 @@ Libraries used (can be found on the pom.xml file):
 		3. https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
 		4. https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 	Plugins
-		1. 
+		1. https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin
+		2. https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin
+		3. https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-assembly-plugin
 	
 Tools:
 	1. IDE - Eclipse IDE for Java Developers - 2023-03
@@ -33,3 +30,4 @@ References:
 	6. Java String to Int – How to Convert a String to an Integer (https://www.freecodecamp.org/news/java-string-to-int-how-to-convert-a-string-to-an-integer/)
 	7. Java JOptionPane (https://www.javatpoint.com/java-joptionpane)
 	8. Waits (https://www.selenium.dev/documentation/webdriver/waits/)
+	9. How to create a runnable JAR file with Maven? || How to make an executable jar in Maven? (https://www.youtube.com/watch?v=GIyIWpC5YIw&ab_channel=KKJavaTutorials)
