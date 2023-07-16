@@ -1,3 +1,6 @@
+How to run project
+	1. Run "Run.jar"
+
 Other Details:
 	1. Feature file - src/main/resources/Features/GridDemo.feature
 	2. Step Definitions - src/main/java/StepDefinitions/GridDemoSteps.java
