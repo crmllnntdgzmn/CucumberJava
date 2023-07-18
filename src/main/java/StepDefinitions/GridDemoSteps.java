@@ -26,8 +26,8 @@ public class GridDemoSteps {
 
 	@Given("the web browser is open")
 	public void openWebBrowser() {
-		System.getProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "/src/test/resources/Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "/src/main/resources/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

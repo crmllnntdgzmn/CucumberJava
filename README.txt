@@ -1,5 +1,6 @@
 How to run project
-	1. Run "Run.jar"
+	1. Clone this repository
+	2. Run "Run.jar"
 
 Other Details:
 	1. Feature file - src/main/resources/Features/GridDemo.feature
